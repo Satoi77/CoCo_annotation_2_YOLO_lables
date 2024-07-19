@@ -1,0 +1,6 @@
+创建子目录，结构如下：
+dataset--coco--train
+dataset--coco--val
+dataset--coco--test
+把COCO数据集19G的数据下载下来后可以放在这几个目录下。如果只使用转换功能，就不用这个放图片数据进来。放进来主要是用来验证一下转换是否正常。
+然后把instances_train2017.json和instances_val2017.json两个JSON文件放在dataset--coco目录下面就可以了。
